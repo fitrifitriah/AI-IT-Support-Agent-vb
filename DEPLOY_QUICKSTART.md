@@ -66,7 +66,7 @@ docker build -t ai-it-support:latest .
 
 # Run with environment variables
 docker run -p 8501:8501 \
-  -e GEMINI_API_KEY=AIzaSyCWH5mei2S_PHGo0Rk3Krq2PVKuDb2kjGk \
+  -e GEMINI_API_KEY= \
   ai-it-support:latest
 
 # Or use docker-compose (simpler)
