@@ -5,6 +5,11 @@
 .env.production
 .env.*.production
 
+# Testing & Caching
+.pytest_cache/
+.coverage
+htmlcov/
+
 # Python
 __pycache__/
 *.py[cod]

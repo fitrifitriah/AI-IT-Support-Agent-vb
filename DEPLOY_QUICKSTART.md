@@ -49,7 +49,7 @@ git push -u origin main
 In Dewacloud dashboard → **Environment Variables**:
 
 ```
-GEMINI_API_KEY=
+![alt text](image.png)=
 ```
 
 ### Step 4: Deploy!
