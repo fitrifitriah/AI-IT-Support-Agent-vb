@@ -1,0 +1,26 @@
+# Build and deployment configuration for Streamlit
+
+# Streamlit specific files
+streamlit_config.toml
+.streamlit/
+
+# Production secrets
+.env.production
+secrets.toml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Cache
+.pytest_cache/
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
