@@ -49,7 +49,7 @@ git push -u origin main
 In Dewacloud dashboard → **Environment Variables**:
 
 ```
-GEMINI_API_KEY=AIzaSyCWH5mei2S_PHGo0Rk3Krq2PVKuDb2kjGk
+GEMINI_API_KEY=
 ```
 
 ### Step 4: Deploy!
