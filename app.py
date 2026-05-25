@@ -307,6 +307,7 @@ def main():
                         st.error(f"❌ Error processing issue: {response['error']}")
                     else:
                         st.session_state.parsed_issue = response
+                        st.rerun()
 
                 except ValueError as e:
                     st.error(f"❌ Configuration Error: {str(e)}")
