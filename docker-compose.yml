@@ -5,6 +5,7 @@ services:
     build: .
     ports:
       - "80:8501"
+      - "8080:8501"
     environment:
       - GEMINI_API_KEY=${GEMINI_API_KEY}
     volumes:
